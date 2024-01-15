@@ -1,0 +1,64 @@
+.web-index:hover {
+    color: #2045f6 !important;
+}
+
+h3.menu_head {
+	text-align: center;
+    padding: 20px 0px;
+	background: #2045f6;
+    color: white;
+    text-transform: uppercase;
+	font-size: 20px;
+	margin-bottom: 0;
+}
+.sidebar_box{
+	padding-right:0;
+}
+.side_bar{
+	margin-top: 10px;
+}
+.menu {
+	width: auto;
+	height: auto;
+	padding: 0;
+	margin:0;
+    list-style: none;
+	background: #efefef;
+}
+ul {
+	padding: 0;
+	list-style: none;
+}
+.menu > li > a {
+	width: 100%;
+	padding: 15px 30px;
+	display: block;
+	position: relative;
+    font-size:15px;
+	text-decoration:none;
+	font-weight:500;
+	color: black;
+    background: #f8fafd;
+}
+.menu ul li a {
+	width: 100%;
+	display: block;
+	position: relative;
+	font:800 15px/15px 'Lato', sans-serif;
+	color:#3e3f3f;
+	text-decoration:none;
+	border-bottom: 1px solid #ddd;
+	line-height: 3.5em;
+	text-indent: 1.2em;
+}
+.menu ul li a:hover{
+	background: #2045f6;
+	color:#fff;
+}
+.menu > li > a:hover, .menu > li > a.active {
+	background: #2045f6;
+	color: white;
+}
+.menu ul.kid-menu li a{
+	border-bottom: none;
+}
